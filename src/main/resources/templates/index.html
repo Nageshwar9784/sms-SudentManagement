@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+<title>Index</title>
+</head>
+<body style="position: relative;">
+	<!-- As a link -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info m-2">
+		<a class="navbar-brand"> <img src="/images/smslogo.jpg"
+			height="70px" alt="SMS Logo" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarNav" aria-controls="navbarNav"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active"><a class="nav-link " href="/">Home
+						<span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item"><a class="nav-link " href="viewinfo">View
+						information</a></li>
+								<li class="nav-item"><a class="nav-link" href="addstudent">Add
+						information</a></li>
+				<li class="nav-item"><a class="nav-link" href="updateinfo">Update
+						information</a></li>
+
+			</ul>
+		</div>
+	</nav>
+	<div class=" container justify-content-center card border-danger text-center" style=" padding: 2% ;margin-top:5%;border: solid;">
+		<div class="card-header"
+			style="color: rgb(196, 32, 163); text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 30px;">
+			Welcome to Student Management System</div>
+
+		<div class="card-body  py-5 my-2">
+				<a class="btn btn-outline-info btn-block" href="viewinfo" role="button">View Student Details</a> 
+				<a class="btn btn-outline-secondary btn-block" href="addstudent" role="button">Add New Student</a>
+				<a class="btn btn-outline-success btn-block" href="updateinfo" role="button">Update Student</a> 
+				<a class="btn btn-outline-danger btn-block" href="remove" role="button">Delete/Remove Student</a> 
+				<a class="btn btn-outline-primary btn-block" href="showAll" role="button">View All Student</a>
+		</div>
+	</div>
+</body>
+</html>
