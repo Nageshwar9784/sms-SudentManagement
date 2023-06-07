@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet"
@@ -35,6 +35,9 @@
 		</div>
 	</nav>
 	<div class=" container justify-content-center card border-danger text-center" style=" padding: 2% ;margin-top:5%;border: solid;">
+	
+			<div class="alert alert-success" th:text="${success}" th:if="${success}">
+				</div>
 		<div class="card-header"
 			style="color: rgb(196, 32, 163); text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 30px;">
 			Welcome to Student Management System</div>

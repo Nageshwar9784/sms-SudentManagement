@@ -36,6 +36,9 @@
 	<div
 		class=" container card border-danger justify-content-center  text-uppercase"
 		style="width: 30rem; border: solid; padding: 5%; margin-top: 5%; background-color: #B1C6E6">
+		
+		<div class="alert alert-danger" th:text="${error}" th:if="${error}">
+		</div>
 		<div class="card-header"
 			style="color: rgb(196, 32, 163); text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 25px;">
 			Search Student Detail</div>

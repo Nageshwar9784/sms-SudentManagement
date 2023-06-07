@@ -12,11 +12,17 @@
 </head>
 <body>
 	<!-- On rows -->
-	<div class="container" style="padding: 5%;">
+	<div class="container card " style="padding: 5%;">
 		<table class="table table-striped">
+			<div>
+				<div class="alert alert-success" th:text="${success}" th:if="${success}">
+				</div>
+				<div class="alert alert-danger" th:text="${error}" th:if="${error}">
+				</div>
+			</div>
 
 			<thead>
-				<h2 class="text-xl-center table-bordered table-secondary">Details
+				<h2 class="table-bordered table-secondary ">Details
 					of Student</h2>
 				<tr class="table-danger">
 

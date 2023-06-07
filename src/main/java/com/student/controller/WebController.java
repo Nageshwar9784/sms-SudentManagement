@@ -31,10 +31,7 @@ public class WebController {
 	
 		return "addStudent";
 	}
-	@GetMapping("/error")
-	public String maperror() {
-		return "error";
-	}
+
 
 	
 }
